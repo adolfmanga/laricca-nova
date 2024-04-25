@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 @import url('https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap');
 
 * {
@@ -63,6 +63,10 @@ cursor: pointer;
 .titulo-principal:hover {
     color: var(--crimson);
 }
+
+.drink-list:hover {
+    color: var(--crimson);
+}
 .topo-do-site {
     background-color: var(--white);
     display: flex;
@@ -94,6 +98,11 @@ cursor: pointer;
 .drink-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(320px,1fr ));
+}
+
+.prato-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px,1fr )); 
 }
 
 .drink-container img {
